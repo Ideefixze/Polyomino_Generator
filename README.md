@@ -1,6 +1,8 @@
 # Polyomino_Generator
 Haskell code to generate and count Polyominoes.
 
+What is polyomino? ![Polyomino on Wikipedia](https://en.wikipedia.org/wiki/Polyomino)
+
 Returns a list of generated polyominoes of given size.
 ```
 generatePolyominos
