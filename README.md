@@ -5,17 +5,17 @@ What is polyomino? ![Polyomino on Wikipedia](https://en.wikipedia.org/wiki/Polyo
 
 # Functions
 
-Returns a list of generated polyominoes of given size.
+Returns a list of generated polyominoes of given size `n`.
 ```
-generatePolyominos
-```
-
-Returns a number of polyomioes of given size.
-```
-enumeratePolyominos
+generatePolyominos n
 ```
 
-Returns a list of numbers of polyominoes. Generates sequence: [1,2,6,19,63...]
+Returns a number of polyomioes of given size `n`.
 ```
-enumerateAllPolyominos
+enumeratePolyominos n
+```
+
+Returns a list of numbers of polyominoes of size less or equal `n`. Generates sequence: [1,2,6,19,63...]
+```
+enumerateAllPolyominos n
 ```
